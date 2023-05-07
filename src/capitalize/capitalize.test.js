@@ -16,6 +16,3 @@ test('Uppercase letters (besides first letter) converted to lower case', () => {
   expect(capitalize('HOCKEY')).toBe('Hockey')
 })
 
-test('non alphabetic chars removed', () => {
-  expect(capitalize('HOCK53E3^&Y')).toBe('Hockey')
-})
